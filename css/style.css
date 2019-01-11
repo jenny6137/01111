@@ -1,0 +1,53 @@
+@charset "UTF-8";
+* {
+  font-family: 微軟正黑體;
+}
+
+body {
+  height: 1000px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: 900;
+}
+
+header.jumbotron {
+  margin-bottom: 0px;
+  text-align: center;
+  background-image: url(http://cw1.tw/CH/images/channel_master/b30d1f39-d31a-4fc7-a334-926852eeb4af.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+}
+header.jumbotron .container {
+  color: white;
+  padding: 100px 0px;
+}
+header.jumbotron hr {
+  max-width: 300px;
+  border: solid 2px #d6f8b8;
+}
+header.jumbotron h4 {
+  color: rgba(255, 255, 255, 0.8);
+}
+header.jumbotron section {
+  padding: 50px 0px;
+}
+
+section#section_ask {
+  background-color: #d6f8b8;
+}
+section#section_ask .col-sm-5.img {
+  background-image: url(http://www.citysuper.com.tw/upload/e-magazine/e-magazine_20151202012.jpg);
+  height: 300px;
+  background-size: cover;
+  mix-blend-mode: multiply;
+}
+
+h2 {
+  margin-top: 130px;
+  padding: 0px 20px;
+}
+
+section#section_about img {
+  width: 100%;
+}
